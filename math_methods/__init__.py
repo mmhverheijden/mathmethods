@@ -1,0 +1,1 @@
+from math_methods.number import Number
