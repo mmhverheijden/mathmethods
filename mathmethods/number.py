@@ -10,18 +10,18 @@ class Number:
         print(f'Number is "{self.num}"')
         
     def squared(self):
-        logging.info(f'Multiplying the squared variables of {self} is {self**2}')
-        logging.debug(f'Square variable of {self} = {self**2}')
+        logging.info(f'Multiplying the squared variables of {self.num} is {self.num**2}')
+        logging.debug(f'Square variable of {self.num} = {self.num**2}')
         return self**2
     
     def addition(self, addition):
-        logging.debug(f'Number {self} + {addition}')
+        logging.debug(f'Number {self.num} + {addition}')
         return self+addition
     
     def substraction(self, substraction):
-        logging.debug(f'Number {self} - {substraction}')
-        return self-substraction
+        logging.debug(f'Number {self.num} - {substraction}')
+        return self.num-substraction
     
     def division(self, divider):
-        return self/divider
+        return self.num/divider
 
