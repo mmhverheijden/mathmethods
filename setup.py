@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'mathmethods',         # How you named your package folder (MyLib)
   packages = ['mathmethods'],   # Chose the same as "name"
-  version = '0.3',      # Start with a small number and increase it with every change you make
+  version = '0.3.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Choose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Simple package to learn how to work with pip',   # Give a short description about your library
   author = 'Mike Verheijden',                   # Type in your name
@@ -11,7 +11,7 @@ setup(
   download_url = ' ',    # I explain this later on
   keywords = ['Maths', 'Test', 'Pip'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'logging',
+          '',
           '',
       ],
   classifiers=[
