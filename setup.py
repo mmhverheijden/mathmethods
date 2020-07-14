@@ -1,8 +1,8 @@
 from distutils.core import setup
 setup(
-  name = 'Math_methods',         # How you named your package folder (MyLib)
-  packages = ['Math_methods'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  name = 'mathmethods',         # How you named your package folder (MyLib)
+  packages = ['mathmethods'],   # Chose the same as "name"
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Choose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Simple package to learn how to work with pip',   # Give a short description about your library
   author = 'Mike Verheijden',                   # Type in your name
