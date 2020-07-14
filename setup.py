@@ -7,7 +7,7 @@ setup(
   description = 'Simple package to learn how to work with pip',   # Give a short description about your library
   author = 'Mike Verheijden',                   # Type in your name
   author_email = 'mmhverheijden@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/mmhverheijden/maths_testpackage',   # Provide either the link to your github or to your website
+  url = 'https://github.com/mmhverheijden/mathmethods',   # Provide either the link to your github or to your website
   download_url = ' ',    # I explain this later on
   keywords = ['Maths', 'Test', 'Pip'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
