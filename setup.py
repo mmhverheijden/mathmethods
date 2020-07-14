@@ -11,7 +11,7 @@ setup(
   download_url = ' ',    # I explain this later on
   keywords = ['Maths', 'Test', 'Pip'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          '',
+          'logging',
           '',
       ],
   classifiers=[
